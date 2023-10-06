@@ -1,3 +1,5 @@
+package shalypenko_hw1;
+
 public class Task3 {
     public static void main(String[] args) {
         int a = 5;

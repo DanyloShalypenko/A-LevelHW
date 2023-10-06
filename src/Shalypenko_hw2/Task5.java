@@ -1,4 +1,4 @@
-package HW2;
+package Shalypenko_hw2;
 
 import java.util.Scanner;
 
@@ -6,10 +6,10 @@ public class Task5 {
     public static void main(String[] args) {
         while (true) { // Цыкл, бесконечный потому что лень перезапускать для проверки.
             Scanner klog = new Scanner(System.in);
-            System.out.print("Write your nubmer: ");
+            System.out.print("Write your number: ");
             int num = klog.nextInt();
 
-          //System.out.println(reverseWithInt(num)); 1-st method
+           //System.out.println(reverseWithInt(num)); //1-st method
             System.out.println(reverseWithString(num)); // 2-nd method
         }
     }
