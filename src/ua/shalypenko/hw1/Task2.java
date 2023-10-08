@@ -1,4 +1,4 @@
-package ua.shalypenko_hw1;
+package ua.shalypenko.hw1;
 
 public class Task2 {
     public static void main(String[] args) {

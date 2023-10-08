@@ -1,4 +1,4 @@
-package ua.shalypenko_hw3;
+package ua.shalypenko.hw3;
 
 import java.util.Scanner;
 

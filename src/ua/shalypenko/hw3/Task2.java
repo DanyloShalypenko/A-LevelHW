@@ -1,4 +1,4 @@
-package ua.shalypenko_hw3;
+package ua.shalypenko.hw3;
 
 import java.util.Scanner;
 
@@ -19,7 +19,7 @@ public class Task2 {
         if (!input.isEmpty()) {
             counter++;
             for (int i = 0; i < input.length(); i++) {
-                if (input.charAt(i) ==  ' ' && i < input.length()-1 && input.charAt(i + 1) != ' ') {
+                if (input.charAt(i) == ' ' && i < input.length() - 1 && input.charAt(i + 1) != ' ') {
                     counter++;
                 }
             }
