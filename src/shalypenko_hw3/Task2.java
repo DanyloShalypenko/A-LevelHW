@@ -9,22 +9,24 @@ public class Task2 {
         do {
             System.out.println("Введите строку");
             String input = sc.nextLine();
-            System.out.println("Вы ввели " + WordsCounter(input) + " слова");
+            System.out.println("Вы ввели " + wordsCounter(input) + " слова");
         } while (true);
     }
 
 
-    public static int WordsCounter(String input) {
+    public static int wordsCounter(String input) {
         int counter = 0;
         if (!input.isEmpty()) {
             counter++;
-            for (int i = 0; i < input.length() - 1; i++) {
-                if (input.charAt(i) == ' ') {
+            for (int i = 0; i < input.length(); i++) {
+                if (input.charAt(i) ==  ' ' && i < input.length()-1 && input.charAt(i + 1) != ' ') {
                     counter++;
                 }
+            }
+            if (input.charAt(0) == ' ') {
+                counter--;
             }
         }
         return counter;
     }
 }
-
