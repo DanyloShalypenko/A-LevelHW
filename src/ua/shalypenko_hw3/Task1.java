@@ -1,4 +1,4 @@
-package shalypenko_hw3;
+package ua.shalypenko_hw3;
 
 import java.util.Scanner;
 
@@ -8,11 +8,11 @@ public class Task1 {
         while (true) {
             System.out.print("Введите строку: ");
             String str = scanner.nextLine();
-            checkforpolyndrom(str);
+            checkPol(str);
         }
     }
 
-    public static boolean checkforpolyndrom(String par) {
+    public static boolean checkPol(String par) {
         String delSpace = par.replace(" ", "").toLowerCase();
         System.out.println("Строка без пробелов:" + "'" + delSpace + "'");
         for (int i = 0; i < delSpace.length() / 2; i++)

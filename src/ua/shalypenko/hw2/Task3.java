@@ -1,12 +1,12 @@
-package Shalypenko_hw2;
+package ua.shalypenko.hw2;
 
 public class Task3 {
     public static void main(String[] args) {
         int number = 4;
-        System.out.println(CheckPair(number));
+        System.out.println(checkPair(number));
     }
 
-        public static String CheckPair(int number)
+        public static String checkPair(int number)
         {
             String answer;
             if (number % 2 == 0) {

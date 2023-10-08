@@ -1,10 +1,10 @@
-package Shalypenko_hw2;
+package ua.shalypenko.hw2;
 
 public class Task4 {
     public static void main(String[] args) {
-        double num1 = 5.0;
-        double num2 = -3.0;
-        double num3 = 7.0;
+        double num1 = -5.0;
+        double num2 = 7.0;
+        double num3 = -9.0;
 
         printSmallestValue(num1, num2, num3);
     }
