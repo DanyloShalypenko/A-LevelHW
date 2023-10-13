@@ -33,6 +33,7 @@ public class Task2 {
         }
         return true;
     }
+
     public static int primeCount(int[] array)
     {
     int primeCount = 0;
