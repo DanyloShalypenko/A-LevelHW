@@ -11,10 +11,22 @@ public class Task3 {
         for (int i = 0; i < size; i++) {
             array[i] = random.nextInt();
         }
-        nullMaker(array);
+        replaceEvenWithZeros(array);
     }
 
-    public static void nullMaker(int[] array) {
+    public static void replaceEvenWithZeros(int[] array) {
+        int[] modifiedArray = new int[array.length];
+        for (int i = 0; i < array.length; i++) {
+            modifiedArray[i] = (array[i] % 2 == 0) ? 0 : array[i];
+        }
+        System.out.println("Массив случайных чисел с четными значениями замененными на нули:");
+        for (int i = 0; i < modifiedArray.length; i++) {
+            System.out.print(modifiedArray[i] + " ");
+        }
+    }
+}
+
+    /*  public static void nullMaker(int[] array) {
         for (int i = 0; i < array.length; i++) {
             if (array[i] % 2 == 0) {
                 array[i] = 0;
@@ -23,14 +35,7 @@ public class Task3 {
         System.out.println("Массив случайных чисел с четными значениями замененными на нули:");
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
-        }
+        }*/
 
-    }
-}
-/*public static int[] replaceEvenWithZeros(int[] array){
-        int[] modifiedArray = new int[array.length];
-        for (int i = 0; i < array.length; i++){
-            modifiedArray[i] = (array[i] % 2 == 0) ? 0 : array[i];
-        }
-        return modifiedArray;
-    }*/
+
+
