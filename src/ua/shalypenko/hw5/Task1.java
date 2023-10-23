@@ -7,15 +7,13 @@ public class Task1 {
 
         int[][] originalArray = createArray(numRows, numCols);
 
-        int[][] modifiedArray = copyArray(originalArray);
-
-        replaceEverySecondRowWithNegatives(modifiedArray);
+        fillArray(originalArray);
 
         System.out.println("Исходный массив:");
         printArray(originalArray);
 
         System.out.println("Модифицированный массив:");
-        printArray(modifiedArray);
+        printArray(fillArray(originalArray));
     }
 
     public static int[][] createArray(int numRows, int numCols) {
@@ -28,27 +26,23 @@ public class Task1 {
         return originalArray;
     }
 
-    // Метод для копирования массива
-    public static int[][] copyArray(int[][] sourceArray) {
+    public static int[][] fillArray(int[][] sourceArray) {
         int numRows = sourceArray.length;
         int numCols = sourceArray[0].length;
-        int[][] copyArray = new int[numRows][numCols];
+        int[][] modifiedArray = new int[numRows][numCols];
+
         for (int i = 0; i < numRows; i++) {
             for (int j = 0; j < numCols; j++) {
-                copyArray[i][j] = sourceArray[i][j];
+                modifiedArray[i][j] = sourceArray[i][j];
+                if (i % 2 == 1) {
+                    modifiedArray[i][j] = -modifiedArray[i][j];
+                }
             }
         }
-        return copyArray;
+
+        return modifiedArray;
     }
 
-
-    public static void replaceEverySecondRowWithNegatives(int[][] array) {
-        for (int i = 1; i < array.length; i += 2) {
-            for (int j = 0; j < array[0].length; j++) {
-                array[i][j] = -array[i][j];
-            }
-        }
-    }
 
     public static void printArray(int[][] array) {
         for (int i = 0; i < array.length; i++) {
