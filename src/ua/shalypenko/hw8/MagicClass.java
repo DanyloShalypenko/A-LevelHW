@@ -1,4 +1,4 @@
-package cw;
+package ua.shalypenko.hw8;
 
 
 public class MagicClass {

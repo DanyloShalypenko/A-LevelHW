@@ -1,4 +1,4 @@
-package cw;
+package ua.shalypenko.hw8;
 
 public class NoMagic {
     public static void main(String[] args) {
