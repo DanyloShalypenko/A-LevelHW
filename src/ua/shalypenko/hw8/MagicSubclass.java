@@ -12,6 +12,6 @@ public class MagicSubclass extends MagicClass {
     }
 
     public void harryPotterMethod() {
-        System.out.println("Its Magic Harry!!");
+        System.out.println("Its Magic Harry!");
     }
 }

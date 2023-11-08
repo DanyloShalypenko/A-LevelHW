@@ -8,7 +8,7 @@ public class Main {
 
         System.out.println("Circle - Perimeter: " + circle.perimeter() + ", Area: " + circle.area());
         System.out.println("Square - Perimeter: " + square.perimeter() + ", Area: " + square.area());
-        System.out.println("Triangle - Perimeter: " + triangle.perimeter());
+        System.out.println("Triangle - Perimeter:  " + triangle.perimeter());
         System.out.println("Triangle - Area (Heron's formula): " + triangle.area());
         System.out.println("Triangle - Area (Product of two sides per sine angle): " + triangle.area(90));
         System.out.println("Triangle - Area (Base and Height product): " + triangle.area(4, 3));

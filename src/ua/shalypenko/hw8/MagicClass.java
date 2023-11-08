@@ -16,7 +16,7 @@ public class MagicClass {
     }
 
     public final void finalMethod() {
-        System.out.println("This is a final method in MagicClass.");
+        System.out.println("This is a final method in MagicClass");
     }
 
 }

@@ -66,19 +66,19 @@ class Triangle extends Figure {
         return side1 + side2 + side3;
     }
 
-    // Area of triangle using Heron's formula
+
     public double area() {
         double s = perimeter() / 2;
         return Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
     }
 
-    // Area of triangle using the product of two sides per sine angle
+
     public double area(double angle) {
         double angleInRadians = Math.toRadians(angle);
         return 0.5 * side1 * side2 * Math.sin(angleInRadians);
     }
 
-    // Area using a base height product
+
     public double area(double base, double height) {
         return 0.5 * base * height;
     }
