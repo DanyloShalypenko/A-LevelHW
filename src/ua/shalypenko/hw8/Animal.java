@@ -24,7 +24,7 @@ public class Animal {
 
     public void setHoursOfSleeping(int hoursOfSleeping) {
         if (hoursOfSleeping < 0) {
-            System.out.println("Hours of sleeping must be positive");
+            System.out.println("Hours of sleeping must be positiv");
         } else {
             this.hoursOfSleeping = hoursOfSleeping;
         }

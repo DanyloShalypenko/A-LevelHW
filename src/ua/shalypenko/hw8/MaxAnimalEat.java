@@ -17,7 +17,7 @@ public class MaxAnimalEat {
 
         Animal animalWithMaxSleep = findAnimalWithMaxSleep(animal1, animal2, animal3);
 
-        System.out.println("longest sleep " + animalWithMaxSleep.getHoursOfSleeping());
+        System.out.println("Longest sleep " + animalWithMaxSleep.getHoursOfSleeping());
         animalWithMaxSleep.eat();
 
     }
