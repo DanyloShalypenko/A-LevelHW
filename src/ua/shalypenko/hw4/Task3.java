@@ -11,31 +11,20 @@ public class Task3 {
         for (int i = 0; i < size; i++) {
             array[i] = random.nextInt();
         }
-        replaceEvenWithZeros(array);
+
+        int[] modifiedArray = replaceEvenWithZeros(array);
+
+        System.out.println("Массив случайных чисел с четными значениями замененными на нули:");
+        for (int j : modifiedArray) {
+            System.out.print(j + " ");
+        }
     }
 
-    public static void replaceEvenWithZeros(int[] array) {
+    public static int[] replaceEvenWithZeros(int[] array) {
         int[] modifiedArray = new int[array.length];
         for (int i = 0; i < array.length; i++) {
             modifiedArray[i] = (array[i] % 2 == 0) ? 0 : array[i];
         }
-        System.out.println("Массив случайных чисел с четными значениями замененными на нули:");
-        for (int i = 0; i < modifiedArray.length; i++) {
-            System.out.print(modifiedArray[i] + " ");
-        }
+        return modifiedArray;
     }
 }
-
-    /*  public static void nullMaker(int[] array) {
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] % 2 == 0) {
-                array[i] = 0;
-            }
-        }
-        System.out.println("Массив случайных чисел с четными значениями замененными на нули:");
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + " ");
-        }*/
-
-
-
