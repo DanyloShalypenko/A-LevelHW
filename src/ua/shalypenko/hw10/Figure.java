@@ -88,16 +88,4 @@ class Triangle extends ua.shalypenko.hw10.Figure {
         double s = perimeter() / 2;
         return Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
     }
-
-    public double area(double angle) {
-        double angleInRadians = Math.toRadians(angle);
-        return 0.5 * side1 * side2 * Math.sin(angleInRadians);
-    }
-
-    public double area(double base, double height) throws InvalidParameterException {
-        if (base <= 0 || height <= 0) {
-            throw new InvalidParameterException("Base and height must be positive values.");
-        }
-        return 0.5 * base * height;
-    }
 }

@@ -2,17 +2,20 @@ package ua.shalypenko.hw10;
 
 public class Main {
     public static void main(String[] args) {
+        Circle circle = null;
+        Square square = null;
+        Triangle triangle = null;
         try {
 
-            Circle circle = new Circle(5.0);
+            circle = new Circle(5.0);
             System.out.println("Circle Perimeter: " + circle.perimeter());
             System.out.println("Circle Area: " + circle.area());
 
-            Square square = new Square(4.0);
+            square = new Square(4.0);
             System.out.println("Square Perimeter: " + square.perimeter());
             System.out.println("Square Area: " + square.area());
 
-            Triangle triangle = new Triangle(1.0, 1.0, 3.0);
+            triangle = new Triangle(3.0, 4.0, 5.0);
             System.out.println("Triangle Perimeter: " + triangle.perimeter());
             System.out.println("Triangle Area: " + triangle.area());
 
@@ -20,5 +23,29 @@ public class Main {
         } catch (InvalidParameterException e) {
             System.out.println("Exception: " + e.getMessage());
         }
+        Figure largestFigure = findLargestArea(circle, square, triangle);
+
+        if (largestFigure != null) {
+            System.out.println("Figure with the Largest Area: " + largestFigure.getClass().getSimpleName());
+        }
+
+    }
+    private static Figure findLargestArea(Figure... figures) {
+        if (figures.length == 0) {
+            return null;
+        }
+
+        Figure largestFigure = figures[0];
+        double largestArea = largestFigure.area();
+
+        for (Figure figure : figures) {
+            double area = figure.area();
+            if (area > largestArea) {
+                largestArea = area;
+                largestFigure = figure;
+            }
+        }
+
+        return largestFigure;
     }
 }
