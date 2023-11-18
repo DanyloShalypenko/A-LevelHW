@@ -20,7 +20,7 @@ class Main {
         System.out.println("\nIndex of 42: " + index);
 
         boolean contains = list.isContains("grape");
-        System.out.println("Contains 'grape': " + contains);
+        System.out.println("Contains grape': " + contains);
     }
 
     public static void printArrayList(ArrayList list) {
