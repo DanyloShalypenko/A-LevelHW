@@ -26,7 +26,7 @@ class FigureCompare {
         // Сортування фігур за площею та периметром
         figures.sort(combinedComparator);
 
-        // Виведення відсортованих фігур
+        // Виведення відсортованих фігу
         for (Figure figure : figures) {
             System.out.println("Area: " + figure.area() + ", Perimeter: " + figure.perimeter());
         }
