@@ -19,7 +19,7 @@ class Main {
         int index = list.indexOf(42);
         System.out.println("\nIndex of : " + index);
 
-        boolean contains = list.isContains("grape");
+        boolean contains = list.isContains("grap");
         System.out.println("Contains grape': " + contains);
     }
 
