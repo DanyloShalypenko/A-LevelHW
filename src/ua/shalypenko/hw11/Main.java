@@ -17,7 +17,7 @@ class Main {
         printArrayList(list);
 
         int index = list.indexOf(42);
-        System.out.println("\nIndex of 42: " + index);
+        System.out.println("\nIndex of : " + index);
 
         boolean contains = list.isContains("grape");
         System.out.println("Contains grape': " + contains);

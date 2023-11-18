@@ -26,7 +26,7 @@ public class ArrayList {
 
     public void add(Object element, int index) {
         if (index < 0 || index > size) {
-            throw new IndexOutOfBoundsException("Index out of bound");
+            throw new IndexOutOfBoundsException("Index outof bound");
         }
 
         ensureCapacity();
