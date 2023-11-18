@@ -1,4 +1,4 @@
-package ua.shalypenko.hw10;
+package ua.shalypenko.hw12;
 
 public class Main {
     public static void main(String[] args) {

@@ -17,10 +17,10 @@ class Main {
         printArrayList(list);
 
         int index = list.indexOf(42);
-        System.out.println("\nIndex of 42: " + index);
+        System.out.println("\nIndex of : " + index);
 
-        boolean contains = list.isContains("grape");
-        System.out.println("Contains 'grape': " + contains);
+        boolean contains = list.isContains("grap");
+        System.out.println("Contains grape': " + contains);
     }
 
     public static void printArrayList(ArrayList list) {

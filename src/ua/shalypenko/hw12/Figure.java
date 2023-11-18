@@ -1,6 +1,4 @@
-package ua.shalypenko.hw10;
-
-import java.lang.Math;
+package ua.shalypenko.hw12;
 
 class InvalidParameterException extends Exception {
     public InvalidParameterException(String message) {
@@ -18,7 +16,7 @@ class Figure {
     }
 }
 
-class Circle extends ua.shalypenko.hw10.Figure {
+class Circle extends Figure {
     private final double radius;
 
     public Circle(double radius) throws InvalidParameterException {
@@ -39,7 +37,7 @@ class Circle extends ua.shalypenko.hw10.Figure {
     }
 }
 
-class Square extends ua.shalypenko.hw10.Figure {
+class Square extends Figure {
     private final double side;
 
     public Square(double side) throws InvalidParameterException {
@@ -60,7 +58,7 @@ class Square extends ua.shalypenko.hw10.Figure {
     }
 }
 
-class Triangle extends ua.shalypenko.hw10.Figure {
+class Triangle extends Figure {
     private final double side1;
     private final double side2;
     private final double side3;
