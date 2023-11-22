@@ -15,7 +15,7 @@ public class Main {
             System.out.println("Square Perimeter: " + square.perimeter());
             System.out.println("Square Area: " + square.area());
 
-            triangle = new Triangle(3.0, 4.0, 5.0);
+            triangle = new Triangle(9.0, 12.0, 15.0);
             System.out.println("Triangle Perimeter: " + triangle.perimeter());
             System.out.println("Triangle Area: " + triangle.area());
 

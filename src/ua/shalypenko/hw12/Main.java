@@ -26,7 +26,7 @@ public class Main {
         Figure largestFigure = findLargestArea(circle, square, triangle);
 
         if (largestFigure != null) {
-            System.out.println("Figure with the Largest Area: " + largestFigure.getClass().getSimpleName());
+            System.out.println("Figure with the Largest Area:  " + largestFigure.getClass().getSimpleName());
         }
 
     }
