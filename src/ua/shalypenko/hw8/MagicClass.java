@@ -12,7 +12,7 @@ public class MagicClass {
 
     public void displayVariables() {
         System.out.println("Value: " + number);
-        System.out.println("Text: " + string);
+        System.out.println("Text:  " + string);
     }
 
     public final void finalMethod() {

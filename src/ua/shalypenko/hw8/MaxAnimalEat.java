@@ -12,7 +12,7 @@ public class MaxAnimalEat {
         animal2.setHoursOfSleeping(10);
 
         Animal animal3 = new Animal();
-        animal3.setKindOFood("Fish");
+        animal3.setKindOFood("Fish" );
         animal3.setHoursOfSleeping(6);
 
         Animal animalWithMaxSleep = findAnimalWithMaxSleep(animal1, animal2, animal3);

@@ -1,5 +1,7 @@
 package ua.shalypenko.hw8;
 
+import java.util.Comparator;
+
 public class Animal {
     private String kindOFood;
     private int hoursOfSleeping;
@@ -29,4 +31,5 @@ public class Animal {
             this.hoursOfSleeping = hoursOfSleeping;
         }
     }
+
 }
