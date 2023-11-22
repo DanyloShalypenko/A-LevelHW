@@ -5,7 +5,7 @@ class Circle extends Figure {
 
     public Circle(double radius) throws InvalidParameterException {
         if (radius <= 0) {
-            throw new InvalidParameterException("Radius must be a positive value.");
+            throw new InvalidParameterException("Radius  must be a positive value.");
         }
         this.radius = radius;
     }

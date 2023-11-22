@@ -22,7 +22,7 @@ class FigureCompare {
         figures.sort(combinedComparator);
 
         for (Figure figure : figures) {
-            System.out.println("Area: " + figure.area() + ", Perimeter: " + figure.perimeter());
+            System.out.println("Area: " + figure.area() + ", Perimeter:  " + figure.perimeter());
         }
     }
 }

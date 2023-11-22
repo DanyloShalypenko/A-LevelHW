@@ -21,7 +21,7 @@ public class Main {
 
 
         } catch (InvalidParameterException e) {
-            System.out.println("Exception: " + e.getMessage());
+            System.out.println("Exception:  " + e.getMessage());
         }
         Figure largestFigure = findLargestArea(circle, square, triangle);
 

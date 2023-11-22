@@ -4,7 +4,7 @@ import java.lang.Math;
 
 class Figure {
     public double perimeter() {
-        return 0.0;
+        return 0.0 ;
     }
 
     public double area() {
