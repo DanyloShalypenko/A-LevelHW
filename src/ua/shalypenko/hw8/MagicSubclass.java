@@ -7,7 +7,7 @@ public class MagicSubclass extends MagicClass {
 
     @Override
     public void displayVariables() {
-        System.out.println("New Value: " + number);
+        System.out.println("New Value:  " + number);
         System.out.println("New Text: " + string);
     }
 

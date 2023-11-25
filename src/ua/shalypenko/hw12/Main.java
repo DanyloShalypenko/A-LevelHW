@@ -1,4 +1,4 @@
-package ua.shalypenko.hw10;
+package ua.shalypenko.hw12;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,10 +12,10 @@ public class Main {
             System.out.println("Circle Area: " + circle.area());
 
             square = new Square(4.0);
-            System.out.println("Square Perimeter: " + square.perimeter());
+            System.out.println("Square Perimeter:  " + square.perimeter());
             System.out.println("Square Area: " + square.area());
 
-            triangle = new Triangle(9.0, 12.0, 15.0);
+            triangle = new Triangle(3.0, 4.0, 5.0);
             System.out.println("Triangle Perimeter: " + triangle.perimeter());
             System.out.println("Triangle Area: " + triangle.area());
 
@@ -26,7 +26,7 @@ public class Main {
         Figure largestFigure = findLargestArea(circle, square, triangle);
 
         if (largestFigure != null) {
-            System.out.println("Figure with the Largest Area: " + largestFigure.getClass().getSimpleName());
+            System.out.println("Figure with the Largest Area:  " + largestFigure.getClass().getSimpleName());
         }
 
     }

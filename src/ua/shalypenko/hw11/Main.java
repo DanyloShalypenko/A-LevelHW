@@ -4,7 +4,7 @@ class Main {
     public static void main(String[] args) {
         ArrayList list = new ArrayList(3);
 
-        list.add("apple");
+        list.add("apple ");
         list.add(42); // int value
         list.add(213);
 
@@ -19,7 +19,7 @@ class Main {
         int index = list.indexOf(42);
         System.out.println("\nIndex of : " + index);
 
-        boolean contains = list.isContains("grape");
+        boolean contains = list.isContains("graple");
         System.out.println("Contains grape': " + contains);
     }
 

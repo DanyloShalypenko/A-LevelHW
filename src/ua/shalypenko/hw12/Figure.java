@@ -1,6 +1,4 @@
-package ua.shalypenko.hw10;
-
-import java.lang.Math;
+package ua.shalypenko.hw12;
 
 class InvalidParameterException extends Exception {
     public InvalidParameterException(String message) {
@@ -8,7 +6,7 @@ class InvalidParameterException extends Exception {
     }
 }
 
-class Figure  {
+class Figure {
     public double perimeter() {
         return 0.0;
     }
@@ -17,6 +15,4 @@ class Figure  {
         return 0.0;
     }
 }
-
-
 

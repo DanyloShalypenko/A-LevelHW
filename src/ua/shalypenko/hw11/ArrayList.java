@@ -7,7 +7,6 @@ public class ArrayList {
     public ArrayList(int size) {
         this.size = size;
         array = new Object[size];
-        // Initialize all elements to null
         for (int i = 0; i < size; i++) {
             array[i] = null;
         }
@@ -15,7 +14,6 @@ public class ArrayList {
 
     public void add(Object element) {
         ensureCapacity();
-        // Assign the element to the first available slot
         for (int i = 0; i < size; i++) {
             if (array[i] == null) {
                 array[i] = element;
@@ -26,12 +24,11 @@ public class ArrayList {
 
     public void add(Object element, int index) {
         if (index < 0 || index > size) {
-            throw new IndexOutOfBoundsException("Index outof bound");
+            throw new IndexOutOfBoundsException("Index out of bound");
         }
 
         ensureCapacity();
 
-        // Shift elements to the right to make space for the new element
         for (int i = size; i > index; i--) {
             array[i] = array[i - 1];
         }
