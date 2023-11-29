@@ -1,0 +1,5 @@
+Task 1 Result: []
+Task 2 Result: [{name=name1, salary=35, age=30, secondName=secondName1}, {name=name2, salary=36, age=31, secondName=secondName2}, {name=name3, salary=37, age=32, secondName=secondName3}, {name=name4, salary=38, age=33, secondName=secondName4}, {name=name5, salary=39, age=34, secondName=secondName5}]
+Task 3 Result: [{name=name1, salary=35, age=30, secondName=secondName1}]
+Task 4 Result: 185
+Task 5 Result: 4
