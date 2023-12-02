@@ -16,7 +16,7 @@ public class ProductProcessor {
         // Отфильтровать и сохранить продукты с количеством больше заданного значения
         int filterQuantity = 3;
         List<Product> filteredProducts = ProductUtils.filterProducts(products, filterQuantity);
-        ProductUtils.writeProductsToFile(outputPath, "Filtered Products:", filteredProducts);
+        ProductUtils.writeProductsToFile(outputPath, "Filtered Products: ", filteredProducts);
 
 
         // Отсортировать и сохранить все продукты по цене в порядке убывания
