@@ -1,12 +1,9 @@
-package ua.shalypenko.hw12;
+package ua.shalypenko.hw13;
 
 class Circle extends Figure {
     private final double radius;
 
-    public Circle(double radius) throws InvalidParameterException {
-        if (radius <= 0) {
-            throw new InvalidParameterException("Radius  must be a positive value.");
-        }
+    public Circle(double radius) {
         this.radius = radius;
     }
 
@@ -20,4 +17,3 @@ class Circle extends Figure {
         return Math.PI * Math.pow(radius, 2);
     }
 }
-

@@ -1,0 +1,26 @@
+Initial Products:
+Молоко | Quantity: 2 | Price: 1.5
+Яйца | Quantity: 10 | Price: 0.2
+Огурцы | Quantity: 5 | Price: 0.8
+Хлеб | Quantity: 1 | Price: 1.0
+Сыр | Quantity: 3 | Price: 2.5
+Яблоки | Quantity: 6 | Price: 1.2
+Курица | Quantity: 2 | Price: 5.0
+
+Filtered Products: 
+Яйца | Quantity: 10 | Price: 0.2
+Огурцы | Quantity: 5 | Price: 0.8
+Яблоки | Quantity: 6 | Price: 1.2
+
+Sorted Products by Price :
+Курица | Quantity: 2 | Price: 5.0
+Сыр | Quantity: 3 | Price: 2.5
+Молоко | Quantity: 2 | Price: 1.5
+Яблоки | Quantity: 6 | Price: 1.2
+Хлеб | Quantity: 1 | Price: 1.0
+Огурцы | Quantity: 5 | Price: 0.8
+Яйца | Quantity: 10 | Price: 0.2
+
+Total Quantity: 29
+Average Price: 1.2
+Total Cost: 34.7

@@ -1,6 +1,4 @@
-package ua.shalypenko.hw9;
-
-import java.lang.Math;
+package ua.shalypenko.hw13;
 
 class Figure {
     public double perimeter() {

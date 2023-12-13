@@ -1,6 +1,6 @@
 package ua.shalypenko.hw9;
 
-class Triangle extends Figure {
+class Triangle extends Figure  {
     private final double side1;
     private final double side2;
     private final double side3;

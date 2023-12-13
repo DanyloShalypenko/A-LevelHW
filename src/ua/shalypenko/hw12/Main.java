@@ -12,7 +12,7 @@ public class Main {
             System.out.println("Circle Area: " + circle.area());
 
             square = new Square(4.0);
-            System.out.println("Square Perimeter: " + square.perimeter());
+            System.out.println("Square Perimeter:  " + square.perimeter());
             System.out.println("Square Area: " + square.area());
 
             triangle = new Triangle(3.0, 4.0, 5.0);

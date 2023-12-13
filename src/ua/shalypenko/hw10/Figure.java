@@ -8,7 +8,7 @@ class InvalidParameterException extends Exception {
     }
 }
 
-class Figure {
+class Figure  {
     public double perimeter() {
         return 0.0;
     }

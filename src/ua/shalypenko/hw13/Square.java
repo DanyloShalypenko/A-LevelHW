@@ -1,12 +1,9 @@
-package ua.shalypenko.hw12;
+package ua.shalypenko.hw13;
 
 class Square extends Figure {
     private final double side;
 
-    public Square(double side) throws InvalidParameterException {
-        if (side <= 0) {
-            throw new InvalidParameterException("Side length must be a positive value ");
-        }
+    public Square(double side) {
         this.side = side;
     }
 
